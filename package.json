@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-bootstrap-components",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -31,9 +31,11 @@
     "express": "^4.8.5",
     "glob": "^4.0.5"
   },
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Bootstrap Themed Components for Ember CLI",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "bootstrap",
+    "components"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
