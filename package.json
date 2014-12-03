@@ -10,7 +10,9 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": "https://github.com/DVG/ember-cli-bootstrap-components",
+  "homepage": "https://github.com/DVG/ember-cli-bootstrap-components",
+  "bugs": "https://github.com/DVG/ember-cli-bootstrap-components/issues",
   "engines": {
     "node": ">= 0.10.0"
   },
