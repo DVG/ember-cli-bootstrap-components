@@ -1,3 +1,12 @@
 <h2 id='title'>Welcome to Ember.js</h2>
-
+<div class="row">
+  <div class="col-md-4">
+    <form role="form">
+      {{bs-input type="text" value=text for="textField" labelText="Text Field"}}
+      {{bs-input type="password" value=password for="password" labelText="Password Field"}}
+      {{bs-input type="text" value=blah for="errorField" labelText="Field with Errors" errors=errors}}
+    </form>
+  </div>
+</div>
+{{blah}}
 {{outlet}}
